@@ -1,0 +1,115 @@
+/*———————————————————————————————————————*/
+/* Imports                               */
+/*———————————————————————————————————————*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+/*———————————————————————————————————————*/
+/* Body & HTML                           */
+/*———————————————————————————————————————*/
+
+body, html {
+    background-color: var(--main-bg-color);
+    margin: 0;
+}
+
+/*———————————————————————————————————————*/
+/* Variables                             */
+/*———————————————————————————————————————*/
+
+:root {
+    --main-bg-color: white;
+    --banner-buttons-color: #313444;
+    --main-font: 'Noto Sans JP', sans-serif;
+}
+
+/*———————————————————————————————————————*/
+/* Classes                               */
+/*———————————————————————————————————————*/
+
+/* Nav-Bar */
+.custom-nav-links {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    font-family: var(--main-font);
+}
+
+.custom-nav-links:hover {
+    text-decoration: underline;
+}
+
+.custom-nav-list {
+    display: inline;
+    padding: 2em;
+}
+
+/* Banner */
+.custom-button-list {
+    display: inline;
+    padding: 5em;
+    width: 5em;
+    height: 5em;
+    border: 2px solid black;
+}
+
+.custom-button-links {
+    text-decoration: none;
+    font-family: var(--main-font);
+}
+
+/*———————————————————————————————————————*/
+/* Id's                                  */
+/*———————————————————————————————————————*/
+
+/* Nav-Bar */
+#nav-bar-box {
+    width: 100%;
+    height: 5em;
+}
+
+#nav-bar {
+    position: absolute;
+    list-style-type: none;
+    left: 5em;
+    top: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar-image {
+    position: absolute;
+    width: 6em;
+    height: 6em;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+/* Banner */
+#banner {
+    width: 100%;
+    height: 20em;
+    background: rgb(57,146,204);
+    background: linear-gradient(90deg, rgba(57,146,204,1) 0%, rgba(45,214,207,1) 100%);
+}
+
+#banner-image {
+    position: absolute;
+    right: 5em;
+    width: 12em;
+    height: 12em;
+    top: 10em;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+#banner-text {
+    color: white;
+    font-family: var(--main-font);
+    width: 15em;
+}
+
+#banner-button-list {
+    position: absolute;
+    bottom: 0;
+}
