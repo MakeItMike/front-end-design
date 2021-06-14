@@ -60,10 +60,26 @@ body, html {
     font-family: var(--main-font);
 }
 
-
 .custom-button-links {
     text-decoration: none;
     font-family: var(--main-font);
+}
+
+/* Buttons */
+.custom-links {
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+}
+
+.custom-li {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 1em;
+}
+
+.custom-li:hover {
+    background-color: #292c3b;
+    
 }
 
 /*———————————————————————————————————————*/
@@ -120,10 +136,22 @@ body, html {
     position: absolute;
     width: 15em;
     padding: 1em;
-    
 }
 
 #banner-button-list {
     bottom: 5em;
     width: 100%;
+}
+
+/* Buttons */
+#list {
+    background-color: #313444;
+    min-width: 45em;
+    width: 100%;
+}
+
+#ul-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
 }
