@@ -1,11 +1,11 @@
 /*———————————————————————————————————————*/
-/* Imports                               */
+/* SECTION: Imports                      */
 /*———————————————————————————————————————*/
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 /*———————————————————————————————————————*/
-/* Body & HTML                           */
+/* SECTION: Body & HTML                  */
 /*———————————————————————————————————————*/
 
 body, html {
@@ -15,7 +15,7 @@ body, html {
 }
 
 /*———————————————————————————————————————*/
-/* Variables                             */
+/* SECTION: Variables                    */
 /*———————————————————————————————————————*/
 
 :root {
@@ -34,7 +34,7 @@ body, html {
 }
 
 /*———————————————————————————————————————*/
-/* Classes                               */
+/* SECTION: Classes                      */
 /*———————————————————————————————————————*/
 
 /* Nav-Bar */
@@ -89,20 +89,20 @@ body, html {
 }
 
 /*———————————————————————————————————————*/
-/* Id's                                  */
+/* SECTION: Id's                         */
 /*———————————————————————————————————————*/
 
 /* Nav-Bar */
 #nav-bar-box {
     width: 100%;
-    height: 5em;
+    height: 2em;
 }
 
 #nav-bar {
     position: absolute;
     list-style-type: none;
     left: 5em;
-    top: 2em;
+    top: .5em;
     margin: 0;
     padding: 0;
 }
